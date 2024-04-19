@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="calc.css">
+  <script src="calc.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-container">
+      <div class="item1"><input type="text" id="res"></div>
+      <div class="item2"><button class="b1" onclick = "Clear()">C</button></div>
+      <div class="item3"><button class="b1" onclick = "Solve('%')">%</button></div>  
+      <div class="item4"><button class="b1" onclick ="Back('←')">←</button></div>
+      <div class="item4"><button class="b1" onclick = "Solve('/')">/</button></div>
+
+      <div class="item2"><button class="b1" onclick = "Solve('7')">7</button></div>
+      <div class="item3"><button class="b1" onclick = "Solve('8')">8</button></div>  
+      <div class="item4"><button class="b1" onclick = "Solve('9')">9</button></div>
+      <div class="item5"><button class="b1" onclick = "Solve('*')">*</button></div>
+
+      <div class="item6"><button class="b1" onclick = "Solve('4')">4</button></div>
+      <div class="item7"><button class="b1" onclick = "Solve('5')">5</button></div>
+      <div class="item8"><button class="b1" onclick = "Solve('6')">6</button></div>  
+      <div class="item9"><button class="b1" onclick = "Solve('-')">-</button></div>
+
+      <div class="item10"><button class="b1" onclick = "Solve('1')">1</button></div>
+      <div class="item11"><button class="b1" onclick = "Solve('2')">2</button></div>
+      <div class="item12"><button class="b1" onclick = "Solve('3')">3</button></div>
+      <div class="item13"><button class="b1" onclick = "Solve('+')">+</button></div>
+
+      <div class="item10"><button class="b1" onclick = "Solve('00')">00</button></div>
+      <div class="item11"><button class="b1" onclick = "Solve('0')">0</button></div>
+      <div class="item12"><button class="b1" onclick = "Solve('0.')">.</button></div>
+      <div class="item13"><button class="b1" onclick = "Result()">=</button></div>
+    </div>
+  </div>
+</body>
+</html>
+
+
